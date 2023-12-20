@@ -1,0 +1,44 @@
+// Empty
+[
+    {
+        "key": "ctrl+alt+k",
+        "command": "-code-runner.runCustomCommand"
+    },
+    {
+        "key": "ctrl+alt+j",
+        "command": "-code-runner.runByLanguage"
+    },
+    {
+        "key": "ctrl+alt+oem_6",
+        "command": "-latex-workshop.demote-sectioning",
+        "when": "editorTextFocus && !config.latex-workshop.bind.altKeymap.enabled && !editorReadonly && editorLangId =~ /latex|rsweave|jlweave/"
+    },
+    {
+        "key": "ctrl+l ctrl+j",
+        "command": "latex-workshop.synctex",
+        "when": "editorTextFocus && !config.latex-workshop.bind.altKeymap.enabled && editorLangId == 'latex'"
+    },
+    {
+        "key": "ctrl+alt+j",
+        "command": "-latex-workshop.synctex",
+        "when": "editorTextFocus && !config.latex-workshop.bind.altKeymap.enabled && editorLangId == 'latex'"
+    },
+    {
+        "key": "ctrl+l ctrl+j",
+        "command": "latex-workshop.synctex",
+        "when": "config.latex-workshop.bind.altKeymap.enabled && editorTextFocus && editorLangId == 'latex'"
+    },
+    {
+        "key": "ctrl+l alt+j",
+        "command": "-latex-workshop.synctex",
+        "when": "config.latex-workshop.bind.altKeymap.enabled && editorTextFocus && editorLangId == 'latex'"
+    },
+    {
+        "key": "ctrl+l w",
+        "command": "latex-workshop.wordcount"
+    },
+    {
+        "key": "ctrl+l b",
+        "command": "latex-workshop.viewInBrowser"
+    }
+]

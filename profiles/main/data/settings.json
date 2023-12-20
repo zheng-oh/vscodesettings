@@ -1,0 +1,114 @@
+{
+    "python.formatting.provider": "yapf",
+    "workbench.settings.useSplitJSON": true,
+    "python.linting.pylintEnabled": false,
+    "terminal.integrated.profile.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "terminal.integrated.profile.osx": "/usr/local/bin/fish",
+    "terminal.integrated.profile.linux": "/usr/bin/fish",
+    "files.autoGuessEncoding": true,
+    "python.terminal.activateEnvironment": false,
+    "explorer.confirmDelete": false,
+    "terminal.integrated.inheritEnv": true,
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.runInTerminal": true,
+    "sync.gist": "f18e9962b1c857a6360fdcdd9fb1cccc",
+    "gitee.gist": "4dtpi57x6cvmos20eqyuj90",
+    "gitee.access_token": "8a62d65021bfe78df7ea9daf52650741",
+    "workbench.colorTheme": "One Monokai",
+    "editor.fontFamily": "Source Code Pro,Consolas, Menlo,'Courier New', monospace",
+    "editor.fontSize": 16,
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "latex-workshop.latex.tools": [
+        {
+            "name": "xelatex",
+            "command": "xelatex",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "%DOC%"
+            ]
+        },
+        {
+            "name": "pdflatex",
+            "command": "pdflatex",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "%DOC%"
+            ]
+        },
+        {
+            "name": "bibtex",
+            "command": "bibtex",
+            "args": [
+                "%DOCFILE%"
+            ]
+        }
+    ],
+    "latex-workshop.latex.recipes": [
+        {
+            "name": "pdf->bib->pdf->pdf",
+            "tools": [
+                "pdflatex",
+                "bibtex",
+                "pdflatex",
+                "pdflatex"
+            ]
+        },
+        {
+            "name": "xelatex",
+            "tools": [
+                "xelatex"
+            ],
+        },
+        {
+            "name": "pdflatex",
+            "tools": [
+                "pdflatex"
+            ]
+        },
+        {
+            "name": "xe->bib->xe->xe",
+            "tools": [
+                "xelatex",
+                "bibtex",
+                "xelatex",
+                "xelatex"
+            ]
+        },
+    ],
+    "latex-workshop.view.pdf.viewer": "tab",
+    "latex-workshop.latex.autoClean.run": "onBuilt",
+    "latex-workshop.latex.clean.fileTypes": [
+        "*.abs",
+        "*.aux",
+        "*.bbl",
+        "*.blg",
+        "*.idx",
+        "*.ind",
+        "*.lof",
+        "*.lot",
+        "*.out",
+        "*.toc",
+        "*.acn",
+        "*.acr",
+        "*.alg",
+        "*.glg",
+        "*.glo",
+        "*.gls",
+        "*.fls",
+        "*.log",
+        "*.fdb_latexmk",
+        "*.snm",
+        "*.synctex(busy)",
+        "*.synctex.gz(busy)",
+        "*.nav"
+    ],
+    "security.workspace.trust.untrustedFiles": "open",
+    "latex-workshop.latex.autoBuild.run": "onSave",
+    "editor.formatOnSave": true
+}
